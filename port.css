@@ -1,0 +1,206 @@
+.banner {
+    width: 1000px;
+    height: 650px;
+    
+}
+
+.sub {
+    display: flex;
+    gap: 250px;
+    margin-left: 35px;
+}
+.mo {
+    
+    display: flex;
+    gap: 40px;
+    
+}
+
+.chibi {
+    width: 150px;
+    height: 150px;
+    padding-top: 5px;
+    
+    border: 1px solid rgb(17, 120, 255)  ;
+}
+
+.ho {
+    margin-top: 35px;
+}
+
+.rr {
+    text-align: center;
+    border: 2px solid rgb(17, 120, 255)  ;
+}
+
+.box {
+    width: 150px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.red {
+    background-color: rgb(17, 120, 255);
+    
+}
+
+.green {
+    background-color: rgb(17, 120, 255);
+}
+
+.blue {
+    background-color: rgb(17, 120, 255);
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.background {
+    height: 350px;
+    background-color:rgb(17, 120, 255) ;
+    color: aliceblue;
+   padding-left: 15px;
+   padding-top: 30px;
+}
+
+.im {
+   display: flex;
+   
+}
+
+.lin {
+    width: 100px;
+}
+
+.one {
+    width: 500px;
+    height: auto;
+    border: 2px solid rgb(17, 120, 255);
+}
+
+.two {
+    width: 500px;
+    height: auto;
+    border: 2px solid rgb(17, 120, 255);
+}
+
+.mid {
+    padding-top: 15px;
+    padding-left: 400px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(56, 123, 182);
+    
+    
+
+}
+
+.ma {
+    
+    width: 250px;
+    height: 250px;
+    border:2px solid rgb(21, 101, 207) ;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.white {
+    color: rgb(56, 123, 182);
+     margin-left: 50px;
+     margin-top: 15px;
+}
+
+.so {
+    width: 250px;
+    height: 250px;
+    border:2px solid rgb(21, 101, 207) ;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.compound {
+    display: flex;
+
+}
+
+.thee {
+    width: 250px;
+    height: 250px;
+    border:2px solid rgb(21, 101, 207) ;
+    margin-left: 75px;
+    margin-top: 90px;
+
+}
+
+.sum {
+    display: flex;
+}
+
+.sc {
+   color: rgb(56, 123, 182);
+     margin-left: 42px;
+     margin-top: 15px; 
+}
+
+.penultimate {
+color: rgb(56, 123, 182);
+     margin-left: 70px;
+     margin-top: 15px;
+}
+
+.ls {
+    font-size: 80px;
+}
+
+.yi {
+    
+    width: 400px;
+    height: auto;
+    padding-right: 30px;
+    
+}
+
+.grnd {
+    height: 2900px;
+    background-color:rgb(17, 120, 255) ;
+    color: aliceblue;
+   padding-left: 15px;
+   padding-top: 30px;
+   margin-top: 20px;
+}
+
+.beside {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.sl {
+    font-size: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 60px;
+    padding-top: 15px;
+}
+
+.er {
+    width: 300px;
+    height: 300px;
+    padding-right: 30px;
+}
+
+.bs {
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
