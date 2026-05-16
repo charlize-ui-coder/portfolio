@@ -1,18 +1,19 @@
+
+
+
 .top {
-    height: 300px;
-    background: url("IMG_8885.JPG");
-    background-size: cover;
-
-    text-align: center;
-
+  height: 300px;
+  background: url("IMG_8885.JPG");
+  background-size: cover;
+  text-align: center;
 }
 
-.top img{
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    margin-top: 240px;
-    border: 8px solid rgb(255, 255, 255) ;
+.top img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-top: 240px;
+  border: 8px solid rgb(255, 255, 255);
 }
 
 
@@ -87,11 +88,9 @@ body {
 
 }
 
-.container {
-    
-    display: flex;
-    flex-direction: column;
-    
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .background {
@@ -376,7 +375,7 @@ color: rgb(56, 123, 182);
       transform: rotate(-45deg);
     }
 
-    /* Offcanvas */
+    
     .offcanvas-start {
       width: var(--sidebar-width) !important;
       background: #fff;
@@ -403,3 +402,172 @@ color: rgb(56, 123, 182);
       background: #eef2ff;
       color: var(--primary);
     }
+
+    /* มือถือ / จอเล็ก */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  
+  .top {
+    height: auto;
+    padding-bottom: 40px;
+    background-position: center;
+  }
+
+  .top img {
+    margin-top: 120px;  
+    width: 100px;
+    height: 100px;
+  }
+
+  
+  .sub {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-left: 16px;
+  }
+
+  
+  .mo {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .btn-group-vertical .container {
+    padding: 0;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .rr {
+    margin: 0 16px;
+  }
+
+ 
+  .im {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .one,
+  .two {
+    width: 90%;
+    max-width: 260px;
+    height: auto;
+  }
+
+  .background {
+    height: auto;
+    padding-right: 16px;
+  }
+
+  
+  .mid {
+    padding-left: 16px;
+  }
+
+  
+  .compound {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ma,
+  .so,
+  .thee {
+    margin-left: 0;
+    margin-top: 24px;
+    width: 90%;
+    max-width: 260px;
+    height: auto;
+  }
+
+  .sum {
+    flex-direction: column;
+    padding: 0 16px 24px;
+  }
+
+  .white,
+  .sc,
+  .penultimate {
+    margin-left: 0;
+    margin-top: 24px;
+  }
+
+  /* Live sound (ส่วนสูงมาก ๆ) */
+  .grnd {
+    height: auto;
+    padding-right: 16px;
+  }
+
+  .beside,
+  .bs {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .yi,
+  .er {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    padding-right: 0;
+  }
+
+  .ls,
+  .sl {
+    font-size: 40px;
+    padding-right: 0;
+  }
+
+  /* Background music */
+  .euphora {
+    padding-left: 0;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .mi {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bakurin {
+    margin-left: 0;
+    margin-bottom: 16px;
+    width: 90%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .intern,
+  .lll {
+    justify-content: center;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  /* contact footer */
+  .arr {
+    height: auto;
+    padding: 24px 16px;
+    text-align: center;
+  }
+}
